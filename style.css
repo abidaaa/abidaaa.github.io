@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+    background-color: #0e1220;
+}
+
+model-viewer
+{
+    top: 0;
+    left: 0;
+    outline: none;
+    margin: 20% auto auto auto;
+    border: #565656 5px solid;
+    width: 70%;
+    height: 500px;
+    background-color:#0e1220;
+}
+
+#ArButton {
+    width: 50%;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ArButton:hover {
+    background-color: #005f73;
+}
